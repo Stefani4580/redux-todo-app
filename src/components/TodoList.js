@@ -36,7 +36,6 @@ class TodoList extends Component {
   //-------------------------------------
   submitForm(event){
     event.preventDefault();
-
     // grab the input that the user typed in
     const inputtedItem = document.querySelector("#inputted-item");
     this.props.addTodoItem(inputtedItem.value)
