@@ -33,6 +33,12 @@ function todoReducer(state = initialState, action){
             savedTodoItems,
         }
 
+        case types.REMOVE_TODO_ITEM :
+            savedTodoItems.splice(action.payload,1);
+            return {
+                ...state,
+                savedTodoItems,
+            }
         default:
             return state;
 

@@ -56,7 +56,7 @@ class TodoList extends Component {
 
     // looping through the array in state
     const listOfItems =this.props.todoState.savedTodoItems.map((item, id)=>{
-         return(<h5 key={id}>{item}</h5>)
+         return(<h5 key={id}>{id}.  {item}</h5>)
     })
 
     return (

@@ -4,3 +4,4 @@
 // If you Mispell a string the reducer will do nothing (no errors) because it wont see the correct action type (since you mispelled it... shame on you⚱)
 // -----------------------------------------------------------------------------------
 export const ADD_TODO_ITEM = "ADD_TODO_ITEM";
+export const REMOVE_TODO_ITEM = "REMOVE_TODO_ITEM";
